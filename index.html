@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Title</title>
+ <style>
+     .blockExample {
+         padding: 0px;
+         background: grey;
+     }
+
+     .listDemo li {
+         display: inline-block
+     }
+
+     .apple {
+         width: 40px;
+         background: green;
+         height: 20px;
+         margin: 0 auto 0 auto;
+     }
+
+     .banana {
+         width: 60px;
+         background: yellow;
+         height: 40px;
+     }
+
+     .carrot {
+         background: orange;
+         height: 40px;
+     }
+
+     .positioningDemo {
+         position: absolute;
+         top: 0px;
+         left: 0px;
+         background: green;
+         padding: 10px;
+         height: 100px;
+     }
+
+     .firstPositionedSpan {
+         position: absolute;
+         top: 50px;
+         left: 200px;
+         background: #0000ff;
+     }
+
+     .secondfPositionedSpan {
+         position: static;
+         background: red;
+         bottom: 0;
+         right: 100px;
+     }
+
+ </style>
+</head>
+<body>
+
+<div class="blockExample">
+ <div class="apple">
+  apple
+ </div>
+
+ <div class="banana">
+  banana
+ </div>
+
+ <div class="carrot">
+  carrot
+ </div>
+
+ <span class="apple">
+    apple span
+  </span>
+
+ <span class="banana">
+    banana span
+  </span>
+ <span class="carrot">
+    carrot-span
+  </span>
+</div>
+<div class="positioningDemo">
+  <span class="firstPositionedSpan">
+    1 1 1 1 1 1
+  </span>
+
+ <span class="secondfPositionedSpan">
+    2 2 2 2 2 2
+  </span>
+
+ <span>
+    3 3 3 3 3 3
+  </span>
+</div>
+</body>
+</html>
+<!--
+Possible corrections:
+1. set greater width on .positionDemo
+2. change .positionDemo to static / relative
+3. set right on .positionDemo
+-->
